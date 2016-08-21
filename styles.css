@@ -1,3 +1,152 @@
+.hello {
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 40px;
+}
+
+#greeting {
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+}
+
 body {
 	background-color: #e6eeff;
+}
+
+#background {
+	position: absolute;
+	left: 50px;
+	top: 190px;
+	width: 500px;
+	height: 400px;
+	z-index: -1;
+}
+
+.profile-pic {
+	border: 5px rgb(77, 166, 255) solid;
+	padding: 5px;
+	display: block;
+	margin: auto;
+}
+
+table {
+	border: 1px solid black;
+}
+
+.table-space {
+	padding: 15px;
+	border: 1px solid black;
+}
+
+.table-list {
+	padding: 5px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.colored-block {
+	background-color: #99ccff;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#firstcatpic {
+	float: left;
+	width: 400px;
+	margin-right: 15px;
+}
+
+#secondcatpic {
+	float: right;
+	width: 300px;
+	margin-left: 3px;
+	margin-bottom: 20px;
+}
+
+#thirdcatpic {
+	float: left;
+	width: 300px;
+	margin-top: 85px;
+	margin-right: 15px;
+}
+
+#firstfigcap {
+	margin-top: 55px;
+	font-weight: bold;
+}
+
+#secondfigcap {
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top:35px;
+	padding-top: 15px;
+}
+
+#thirdfigcap {
+	display: block;
+	margin-top: 45px;
+	font-weight: bold;
+	padding-top: 145px;
+}
+
+#backhome{
+	padding-top: 20px;
+	margin-left: 350px;
+	float: right;
+	margin-right: 55px;
+}
+
+a:link {
+   color: #F0791E;
+}
+
+a:visited {
+    color: green;
+}
+
+@media screen and (max-width: 500px){
+
+	.profile-pic {
+		width: 300px;
+		margin: auto;
+		vertical-align: center;
+	}
+
+	.colored-block {
+		font-size: 14px;
+		display: block;
+		margin: auto;
+		margin-top: 15px;
+	}
+
+	#background {
+		position: absolute;
+		top: 100px;
+		left: 5px;
+		width: 300px;
+		height: 250px;
+		z-index: -1;
+	}
+
+	#backhome {
+		float: left;
+		width: 200px;
+	}
+
+	#firstfigcap, #secondfigcap, #thirdfigcap {
+		padding-top: 15px;
+		margin-left: 25px;
+	}
+
+	#pcenter1, #pcenter2, #pcenter3 {
+		margin-left: 60px;
+	}
+
+}
+
+h2, h3, h4 {
+	font-style: italic;
 }
