@@ -10,19 +10,12 @@
 	font-weight: bold;
 	font-style: oblique;
 	text-align: center;
+
 }
 
 body {
-	background-color: #e6eeff;
-}
-
-#background {
-	position: absolute;
-	left: 50px;
-	top: 170px;
-	width: 500px;
-	height: 425px;
-	z-index: -1;
+	background: #F0F8FF url("images/white-flowers.jpg");
+	background-size: 100%;
 }
 
 .profile-pic {
@@ -45,12 +38,6 @@ table {
 	padding: 5px;
 	text-align: center;
 	border: 1px solid black;
-}
-
-.colored-block {
-	background-color: #99ccff;
-	border-radius: 10px;
-	padding: 5px;
 }
 
 #firstcatpic {
